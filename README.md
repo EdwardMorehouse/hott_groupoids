@@ -16,10 +16,14 @@ This structure is intended to:
 
 - be more topological and categorical in flavor
 - reduce code-on-code dependencies
-- (eventually) facilitate the use of decision procedures and proof search
+- (eventually) facilitate the use of decision procedures and proof search strategies
 
 Currently, the library contains combinators for only 2-dimensional groupoid structure.
 But there is no reason that higher-dimensional structure could not be defined,
 should the need arise.  The library depends on the
 [Agda standard library](http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Libraries.StandardLibrary)
 for some common, non-HoTT things, some of which are renamed in the Interlude.
+
+
+This material is based upon work supported by the National Science Foundation under Grant Number 1116703.
+Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
